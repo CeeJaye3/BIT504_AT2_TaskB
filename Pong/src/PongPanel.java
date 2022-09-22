@@ -15,7 +15,11 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener
 {
 	int player1Score = 0, player2Score = 0;
 	Player gameWinner;
+<<<<<<< HEAD
 	private final static Color background_color = Color.GRAY;
+=======
+	private final static Color background_color = Color.WHITE;
+>>>>>>> refs/heads/experiment_2
 	private final static int Timer_Delay = 5;
 	private final static int BALL_MOVEMENT_SPEED = 2;
 	private final static int POINTS_TO_WIN = 3;
@@ -27,7 +31,11 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener
     private final static int WINNER_TEXT_Y = 200;
     private final static int WINNER_FONT_SIZE = 40;
     private final static String WINNER_FONT_FAMILY = "Serif";
+<<<<<<< HEAD
 private final static String WINNER_TEXT = "CONGRATULATIONS WINNER!";
+=======
+private final static String WINNER_TEXT = "WINNER!";
+>>>>>>> refs/heads/experiment_2
    
 	GameState gameState = GameState.Initialising;
 	
